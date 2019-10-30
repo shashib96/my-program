@@ -3,13 +3,13 @@
 
 int main()
 {
-    int d,n,m,sum=0;
+    int n,m,sum=0;
     printf("enter the no!\n");
     scanf("%d",&n);
     m=n;
     while(n>0)
     {
-        d=n%10;
+        int d = n%10;
         sum=(sum*10)+d;
         n=n/10;
     }
